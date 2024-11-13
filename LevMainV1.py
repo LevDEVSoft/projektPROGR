@@ -1,4 +1,4 @@
-
+# Algversioon
 
 def main():
     # Create a basic tkinter window
