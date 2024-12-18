@@ -1,3 +1,29 @@
+# Programmeerimine I
+# 2024/2025 sügissemester
+#
+# Projekt
+# Teema: Tark Energiasäästja 
+#
+# Autorid:
+#   Leonard Lume
+#   Lev Listov
+#
+# Lisakommentaar:
+#   Käivitusjuhend:
+#   1) Käivitada Python skript
+#   2) Avaneda graafiline aken (tkinter).
+#   3) Kasutaja saab sisestada temperatuuriväärtusi (°C) tekstikasti kaudu.
+#   4) Iga andmekogumisega lisatakse automaatselt juhuslik valguse väärtus (luks).
+#   5) Vajutades "Lisa andmed" nuppu, salvestatakse sisestatud temperatuur andmelisti,
+#      genereeritakse valguse andmepunkt ning seejärel kuvatakse trendid ja soovitused GUI-s.
+#   6) Kasutaja saab vaadata statistikat (nupust "Vaata statistikat") ning salvestada/avada andmeid
+#      menüü käske kasutades ("Fail" menüü).
+#
+#   Antud versioon ei kasuta matplotlib-i. Andmed kuvatakse tekstiliselt: trendid on sõnalised
+#   ning soovitused on samuti tekstina.
+#
+
+
 import tkinter as tk          # tkinter - Pythoni standardne GUI teek
 import random                 # random - juhuslike väärtuste genereerimiseks
 import csv                    # csv - andmete lugemiseks ja salvestamiseks csv faili
